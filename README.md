@@ -1,5 +1,7 @@
-Meine Frau wünschte sich ein Radio in der Küche. Ich hatte ein Raspi und LCD-Touch display rumliegen gehabt. Gesagt, getan. Zuerst habe ich mit LibreELEC probiert, leider kann man nicht so einfach zwischen den eingebauten und einem USB WiFi wechseln. Raspi OS + Kodi, naja, touchscreen hat nicht funktioniert in den fullscreen modus. Im normalen modus hats funktioniert aber das Zurück function nicht. Ich wollte mich auch nicht mit dem Thema beschäftigen und habe ein Python script + QT geschrieben. Das script streamt online Radios die sie wollte.
+My wife wanted a radio in the kitchen. I had a Raspi and LCD touch display lying around. No sooner said than done. First, I tried LibreELEC, but unfortunately, it's not that easy to switch between the built-in and a USB WiFi. Raspi OS + Kodi, well, the touchscreen didn't work in full-screen mode. It worked in normal mode, but the back function didn't. I didn't want to deal with the issue, so I wrote a Python script + QT. The script streams the online radio stations she wanted.
 
-Es ist kein Profi Code und und mir egal was ihr denkt :-)
+It's not professional code, and I don't care what you think :-)
+
+Translated with DeepL.com (free version)
 
 <img width="798" height="481" alt="ksnip_20251002-083018" src="https://github.com/user-attachments/assets/88017170-1875-40c0-a7ff-6fc9ffbf4ae2" />
