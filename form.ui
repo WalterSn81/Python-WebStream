@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>800</width>
+    <height>480</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #1e1e2f;
+    color: #f0f0f0;
+    font-family: &quot;Segoe UI&quot;, &quot;Roboto&quot;, sans-serif;
+    font-size: 16px;
+}
+
+/* Label z. B. Infotext */
+QLabel {
+    color: #aaaaaa;
+    font-size: 13px;
+}
+
+/* Standard-Sender-Buttons */
+QPushButton {
+    background-color: #2d2d44;
+    color: #f0f0f0;
+    border: none;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+/* Aktiver Sender-Button */
+QPushButton:checked {
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+}
+
+/* Beim Drücken (nur kurzer visueller Effekt) */
+QPushButton:pressed {
+    background-color: #ba5f00;
+    color: white;
+    font-weight: bold;
+}
+
+/* Spezielle Buttons: Volume + / - &amp; Power */
+QPushButton#btn_volume_plis,
+QPushButton#btn_volume_minus,
+QPushButton#btn_poweroff {
+    background-color:none;
+}
+
+QPushButton#btn_volume_plis:pressed {
+    background-image: url('icons/audio_2625893p.png');
+}
+QPushButton#btn_volume_minus:pressed {
+    background-image: url('icons/audio_26258932pp.png');
+}
+QPushButton#btn_poweroff:pressed {
+
+}
+
+/* Icons haben keinen Text, zentriert */
+QPushButton::icon {
+    margin: auto;
+}</string>
+  </property>
+  <widget class="QPushButton" name="btn_volume_plis">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>10</y>
+     <width>91</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>/home/pi/radio/icons/audio_2625893.png</normaloff>/home/pi/radio/icons/audio_2625893.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_volume_minus">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>10</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>/home/pi/radio/icons/audio_26258932.png</normaloff>/home/pi/radio/icons/audio_26258932.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>60</width>
+     <height>60</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_poweroff">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>0</y>
+     <width>51</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>/home/pi/radio/icons/power-button_12892750.png</normaloff>/home/pi/radio/icons/power-button_12892750.png</iconset>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_bayern1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>90</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bayern 1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="infoText">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>450</y>
+     <width>671</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe UI</family>
+     <pointsize>-1</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Systeminformationen werden geladen...</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_bayern3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>90</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Bayern 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_top_fm">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>90</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Top FM</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_swr1">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>180</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SWR 1</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_swr3">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>180</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>SWR 3</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_90s90s_digital">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>180</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>90s90s Digital</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_90s90s_sommerhits">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>270</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>90s90s Sommerhits</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_90s90s_millenium">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>270</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>90s90s Millenium</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_90s90s_hiphop">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>270</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>90s90s HipHop</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_90s90s_boygroups">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>90s90s Boygroups</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_80s80s_deutsch">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>360</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>80s80s Deutsch</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_80s80s_ndw">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>360</y>
+     <width>191</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>80s80s NDW</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
