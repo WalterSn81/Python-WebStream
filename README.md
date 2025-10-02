@@ -2,8 +2,9 @@ My wife wanted a radio in the kitchen. I had a Raspi and LCD touch display lying
 
 It's not professional code, and I don't care what you think :-)
 
-First tests:![IMG_20251002_073101](https://github.com/user-attachments/assets/1ad09320-ab63-4f5b-b4e0-0312562ee14f)
+First tests:
+![IMG_20251002_073101](https://github.com/user-attachments/assets/1ad09320-ab63-4f5b-b4e0-0312562ee14f)
 
 
-
+Result at the end:
 <img width="798" height="481" alt="ksnip_20251002-083018" src="https://github.com/user-attachments/assets/88017170-1875-40c0-a7ff-6fc9ffbf4ae2" />
