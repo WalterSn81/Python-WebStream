@@ -2,6 +2,4 @@ My wife wanted a radio in the kitchen. I had a Raspi and LCD touch display lying
 
 It's not professional code, and I don't care what you think :-)
 
-Translated with DeepL.com (free version)
-
 <img width="798" height="481" alt="ksnip_20251002-083018" src="https://github.com/user-attachments/assets/88017170-1875-40c0-a7ff-6fc9ffbf4ae2" />
