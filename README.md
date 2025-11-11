@@ -1,6 +1,34 @@
-My wife wanted a radio in the kitchen. I had a Raspi and LCD touch display lying around. No sooner said than done. First, I tried LibreELEC, but unfortunately, it's not that easy to switch between the built-in and a USB WiFi. Raspi OS + Kodi, well, the touchscreen didn't work in full-screen mode. It worked in normal mode, but the back function didn't. I didn't want to deal with the issue, so I wrote a Python script + QT. The script streams the online radio stations she wanted.
+# Kitchen Radio
 
-It's not professional code, and I don't care what you think :-)
+My wife wanted a radio in the kitchen — and I had a Raspberry Pi and an LCD touchscreen lying around.
+
+## Background
+I first tried **LibreELEC**, but switching between the built-in and USB Wi-Fi wasn’t straightforward.  
+Then I tested **Raspberry Pi OS + Kodi**, but the touchscreen only worked in windowed mode — fullscreen broke the back button.
+
+So I wrote a small **Python + Qt** app that simply streams the online radio stations she wanted.  
+Nothing fancy — just works.
+
+## Features
+- Simple touchscreen UI  
+- Plays predefined online radio stations  
+- Built for Raspberry Pi with LCD display  
+
+## Requirements
+- Raspberry Pi (tested on 3B/4)
+- Raspberry Pi OS
+- Python 3
+- PyQt5 or PySide6
+- `vlc` or another audio backend
+
+## Installation
+```bash
+sudo apt update
+sudo apt install python3 python3-pyqt5 vlc
+git clone https://github.com/<yourname>/kitchen-radio.git
+cd kitchen-radio
+python3 radio.py
+
 
 First tests:
 ![IMG_20251002_073101](https://github.com/user-attachments/assets/1ad09320-ab63-4f5b-b4e0-0312562ee14f)
