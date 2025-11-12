@@ -22,7 +22,6 @@ Nothing fancy — just works.
 - `vlc` or another audio backend
 
 ## Installation
-```bash
 sudo apt update
 sudo apt install python3 python3-pyqt5 vlc
 git clone https://github.com/<yourname>/kitchen-radio.git
